@@ -6,16 +6,20 @@
 /dist
 /out-tsc
 
-# Environment variables & secrets
+# Environment variables, direnv & secrets
 .env
 .env.*
 !.env.example
+.envrc
+.gcloud/
 *.pem
 *.key
 
-# Python virtual environment
+# Python virtual environment & packaging
 .venv/
 venv/
+*.egg-info/
+build/
 
 # Caches & temporary files
 .pytest_cache/
