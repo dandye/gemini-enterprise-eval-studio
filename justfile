@@ -32,11 +32,11 @@ install:
 
 # Start frontend development server in no-auth mode (default)
 start:
-    npm run start:no-auth
+    npx ng serve --host 0.0.0.0 --disable-host-check
 
 # Start frontend development server with auth backend
 start-auth:
-    npm run start:auth
+    concurrently "tsx watch src/server/main.ts" "npx ng serve --configuration auth-development --host 0.0.0.0 --disable-host-check"
 
 # ------------------------------------------------------------------------------
 # Build & Compilation
