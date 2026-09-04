@@ -1,7 +1,33 @@
-# dependencies
+# Dependencies
 /node_modules
 
-# Angular files
+# Angular files & build output
 /.angular
 /dist
 /out-tsc
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python virtual environment
+.venv/
+venv/
+
+# Caches & temporary files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+__pycache__/
+
+# OS & Editor Artifacts
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
