@@ -1,0 +1,3 @@
+query,golden,eval_id,expected_specialist,grading_rubric
+Perform a threat hunt to identify if any internal workstation in our environment has established active network connections or beaconing to the malicious domain 'superstarts.top'.,"superstarts.top, connection, beacon",hunt_c2_beaconing,threat_hunter,
+Conduct a proactive hunt to see if there is any evidence of lateral movement using compromised administrator accounts starting from workstation wrk-shasek.,"wrk-shasek, lateral movement, logon",hunt_lateral_movement_path,threat_hunter,

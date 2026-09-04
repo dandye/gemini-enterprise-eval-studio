@@ -1,0 +1,3 @@
+query,golden,eval_id,expected_specialist,grading_rubric
+We have verified active ransomware encryption on workstation wrk-shasek. Please isolate this host from the network immediately to contain the threat.,"wrk-shasek, isolate, confirmation",contain_compromised_host,tier2_responder,
+The user account frank.kolzig is exhibiting malicious lateral movement. Please suspend this Active Directory account immediately to prevent further compromise.,"frank.kolzig, suspend, account",mitigate_compromised_user,tier2_responder,
